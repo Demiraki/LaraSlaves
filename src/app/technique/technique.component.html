@@ -30,7 +30,7 @@
   <div  style="padding: 12px; border-style:solid; border-radius: 5px; margin-top: 12px;"  *ngFor="let post of posts | async"       >
     <button  *ngIf="user.email == post.userOwner "     class="btn btn-danger"  type ="submit" (click)="deletePost(post.Id)" >Delete</button>
     <button  *ngIf="user.email == post.userOwner "  routerLink="/edit"  (click)=" getIdandpushtoedit(post.Id, post.title , post.content)" class="btn btn-success" >   Edit </button>
-    <button type="button" class="btn btn-primary">Coments</button>
+    <button type="button" class="btn btn-primary"  routerLink="/coment" >Coments</button>
     <table  >
       <tr style=" font-size: 20px;" ><b>{{ post.title }}</b></tr>
       <td  >{{ post.content }}</td>

@@ -34,7 +34,9 @@ const appRoutes: Routes = [
  // {path: '', component: HomepageComponent },
   { path: 'game', component: GameComponent},
   { path: 'technique', component: TechniqueComponent , canActivate: [AuthGuard]},
-   {path: 'edit', component: EditComponent}
+   {path: 'edit', component: EditComponent},
+  {path: 'coment', component: ComentsComponent},
+
 
 ];
 
