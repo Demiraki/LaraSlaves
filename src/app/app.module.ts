@@ -21,6 +21,7 @@ import { VerifyEmailComponent } from './components/verify-email/verify-email.com
 import{AuthService} from "./shared/services/auth-service";
 import {AuthGuard} from "./shared/guard/auth.guard";
 import { ComentsComponent } from './coments/coments.component';
+import { AboutComponent } from './about/about.component';
 
 const appRoutes: Routes = [
   { path: '', redirectTo: 'sign-in', pathMatch: 'full' },
@@ -31,11 +32,13 @@ const appRoutes: Routes = [
   { path: 'verify-email-address', component: VerifyEmailComponent },
 
 
+
  // {path: '', component: HomepageComponent },
   { path: 'game', component: GameComponent},
   { path: 'technique', component: TechniqueComponent , canActivate: [AuthGuard]},
    {path: 'edit', component: EditComponent},
   {path: 'coment', component: ComentsComponent},
+  {path: 'about', component: AboutComponent},
 
 
 ];
@@ -63,7 +66,8 @@ const firebaseConfig = {
     SignUpComponent,
     ForgotPasswordComponent,
     VerifyEmailComponent,
-    ComentsComponent
+    ComentsComponent,
+    AboutComponent
 
 
 

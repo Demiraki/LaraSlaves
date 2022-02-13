@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-lg bg-info"  *ngIf="authService.userData as user" >
+  <div class="container">
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" (click)="authService.SignOut()">Sign Out</a>
+        </li>
+        <li class="nav-item">
+          <button class="btn btn-success" routerLink="/technique">Техника </button>
+        </li>
+        <li class="nav-item">
+          <button class="btn btn-success" routerLink="/game">Игры </button>
+        </li>
+        <li class="nav-item">
+          <h3>IT_INFO about games</h3>
+        </li>
+      </ul>
+      <span class="navbar-text">
+        {{user.email}}
+      </span>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+<nav class="navbar fixed-bottom navbar-light bg-info">
+  <div class="container">
+    <h6 class="navbar-brand" >IT_INFO.UA</h6>
+  </div>
+</nav>
