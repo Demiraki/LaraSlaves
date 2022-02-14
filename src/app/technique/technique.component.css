@@ -1,3 +1,24 @@
+body{
+  background-image: url(src/assets/image/fon_homepage.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.main_table{
+  background-color: rgb(204, 2, 184, 0.1);
+  color: black;
+  padding: 12px;
+  border-style:solid;
+  border-radius: 5px;
+  margin-top: 12px;
+}
+
 .first_block{
   background-color: rgb(66, 194, 253);
   width: 1300px;

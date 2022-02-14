@@ -1,3 +1,4 @@
+<body>
 <nav class="navbar navbar-expand-lg bg-info"  *ngIf="authService.userData as user" >
   <div class="container">
     <div class="collapse navbar-collapse" id="navbarText">
@@ -6,10 +7,10 @@
           <a class="nav-link" (click)="authService.SignOut()">Sign Out</a>
         </li>
         <li class="nav-item">
-          <button class="btn btn-success" routerLink="/technique">Техника </button>
+          <button class="btn btn-success" routerLink="/technique">Technique </button>
         </li>
         <li class="nav-item">
-          <button class="btn btn-success" routerLink="/game">Игры </button>
+          <button class="btn btn-success" routerLink="/game">Game </button>
         </li>
         <li class="nav-item">
           <h3>IT_INFO about games</h3>
@@ -22,21 +23,24 @@
   </div>
 </nav>
 
+
 <h1 style="color: #000000;text-align: center ; margin-top: 10px; margin-bottom: 10px">Creators</h1>
 <img [src]="curImage" class="img-center" width="200" height="200" style="margin-center: 600px;">
 <h2 style="color: #000000;text-align: center ; margin: 50px 300px 10px;font-size: 31px">
   You are welcome!
 </h2>
-<h3 style="color: #000000;text-align: justify ; margin: 50px 350px 10px;font-size: 30px; line-height:40px">
+<h3 style="color: #000000;text-align: justify ; margin: 20px 250px 10px;font-size: 30px; line-height:40px">
   Our site is a blog that share different information about IT sphere.
   You can find here interesting news about cyber sport, information about IT devices
   and announcement about new computer games. We make simply and understandable interface that can
   be use by any clients. We are really happy to see a new users on our site.If you have some
   questions, you can easily check our support service.
 </h3>
-<img class="img-center" src="assets/img/1.gif" alt="this gif"  width="500" />
+<!--<img class="img-center" src="assets/img/1.gif" alt="this gif"  width="500" />-->
+
 <nav class="navbar fixed-bottom navbar-light bg-info">
   <div class="container">
-    <h6 class="navbar-brand" >IT_INFO.UA</h6>
+    <a style="color: white" routerLink="/dashboard" >IT_INFO.UA</a>
   </div>
 </nav>
+</body>

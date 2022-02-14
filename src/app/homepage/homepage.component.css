@@ -63,7 +63,14 @@
 
 }
 body{
-  background-color: cornflowerblue;
+  background-image: url(src/assets/image/fon_homepage.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 
@@ -91,9 +98,9 @@ body{
 .butt{
   margin-top: 50px;
   margin-left: 85px;
-  border: 3px solid #218294;
+  border: 3px solid #c98600;
   font-size: 30px;
-  color: #218294;
+  color: #c98600;
   text-decoration: none;
   text-transform: uppercase;
   width: 250px;
@@ -112,7 +119,7 @@ body{
   content: '';
   width: 100%;
   height: 100%;
-  background: #218294;
+  background: #c98600;
   top: 0;
   left: -100%;
   opacity: .5;
@@ -136,9 +143,9 @@ body{
 .butt1{
   margin-top: 20px;
   margin-left: 20px;
-  border: 3px solid #218294;
+  border: 3px solid #00c9c9;
   font-size: 15px;
-  color: #218294;
+  color: #00c9c9;
   text-decoration: none;
   text-transform: uppercase;
   width: 100px;
@@ -157,7 +164,7 @@ body{
   content: '';
   width: 100%;
   height: 100%;
-  background: #218294;
+  background: #00c9c9;
   top: 0;
   left: -100%;
   opacity: .5;

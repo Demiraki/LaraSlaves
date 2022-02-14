@@ -1,3 +1,4 @@
+<body>
 <nav class="navbar navbar-expand-lg bg-success"  *ngIf="authService.userData as user" >
   <div class="container">
     <div class="collapse navbar-collapse" id="navbarText">
@@ -12,7 +13,7 @@
           <a class="nav-link" (click)="authService.SignOut()">Sign Out</a>
         </li>
         <li class="nav-item">
-          <button class="btn btn-success" routerLink="/game">Игры </button>
+          <button class="btn btn-success" routerLink="/game">Game </button>
         </li>
         <li class="nav-item">
           <h3>IT_INFO about technique</h3>
@@ -30,7 +31,7 @@
 
 <div  *ngIf="authService.userData as user"   style= "margin-left: 450px; padding: 5px; width: 550px ; position: absolute;   " >
 
-  <div  style="padding: 12px; border-style:solid; border-radius: 5px; margin-top: 12px;"  *ngFor="let post of posts | async"       >
+  <div  class="main_table"  *ngFor="let post of posts | async"       >
     <button  *ngIf="user.email == post.userOwner "     class="btn btn-danger"  type ="submit" (click)="deletePost(post.Id)" >Delete</button>
     <button  *ngIf="user.email == post.userOwner "  routerLink="/edit"  (click)=" getIdandpushtoedit(post.Id, post.title , post.content)" class="btn btn-success" >   Edit </button>
     <button type="button" class="btn btn-primary"  routerLink="/coment" >Coments</button>
@@ -59,18 +60,10 @@
 </jw-modal>
 
 
-
-
-
-
-
-
-<!--<button (click)="scrollToTop()" class="top_button"  >-->
-<!--  <img  src="assets\image\to_top.png">-->
-<!--</button>-->
 <nav class="navbar fixed-bottom navbar-light bg-success">
   <div class="container">
-    <h6 class="navbar-brand" >IT_INFO.UA</h6>
+    <a style="color: white;" routerLink="/dashboard" >IT_INFO.UA</a>
   </div>
 </nav>
+</body>
 
