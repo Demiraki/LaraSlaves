@@ -39,7 +39,7 @@ export class GameComponent implements OnInit  {
     constructor(private modalService: AddPostService,public authService: AuthService, public db:AngularFirestore, public myElement: ElementRef) {
       this.userOwner = authService.userData.email;
       this.posts = db.collection('posts').valueChanges();
-      this.myElement.nativeElement.ownerDocument.body.style.backgroundColor='rgba(70, 130, 180, 0.3)';
+     
     }
 
 

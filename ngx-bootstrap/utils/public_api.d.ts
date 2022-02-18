@@ -1,0 +1,10 @@
+export * from 'ngx-bootstrap/utils/triggers';
+export { isBs3 } from 'ngx-bootstrap/utils/theme-provider';
+export { LinkedList } from 'ngx-bootstrap/utils/linked-list.class';
+export { listenToTriggersV2, registerOutsideClick, registerEscClick } from 'ngx-bootstrap/utils/triggers';
+export { OnChange } from 'ngx-bootstrap/utils/decorators';
+export { setTheme } from 'ngx-bootstrap/utils/theme-provider';
+export { Trigger } from 'ngx-bootstrap/utils/trigger.class';
+export { Utils } from 'ngx-bootstrap/utils/utils.class';
+export { window, document } from 'ngx-bootstrap/utils/facade/browser';
+export { warnOnce } from 'ngx-bootstrap/utils/warn-once';

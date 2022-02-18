@@ -1,0 +1,10 @@
+export { latinMap } from 'ngx-bootstrap/typeahead/latin-map';
+export { TypeaheadOptions } from 'ngx-bootstrap/typeahead/typeahead-options.class';
+export { TypeaheadMatch } from 'ngx-bootstrap/typeahead/typeahead-match.class';
+export { TypeaheadOrder } from 'ngx-bootstrap/typeahead/typeahead-order.class';
+export { escapeRegexp, getValueFromObject, tokenize, latinize } from 'ngx-bootstrap/typeahead/typeahead-utils';
+export { TypeaheadContainerComponent } from 'ngx-bootstrap/typeahead/typeahead-container.component';
+export { TypeaheadDirective } from 'ngx-bootstrap/typeahead/typeahead.directive';
+export { TypeaheadModule } from 'ngx-bootstrap/typeahead/typeahead.module';
+export { TypeaheadConfig } from 'ngx-bootstrap/typeahead/typeahead.config';
+export { TypeaheadOptionItemContext, TypeaheadOptionListContext, TypeaheadTemplateMethods } from 'ngx-bootstrap/typeahead/models';

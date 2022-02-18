@@ -1,0 +1,10 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+export { arrow } from 'ngx-bootstrap/positioning/esm2015/modifiers/arrow';
+export { flip } from 'ngx-bootstrap/positioning/esm2015/modifiers/flip';
+export { initData } from 'ngx-bootstrap/positioning/esm2015/modifiers/initData';
+export { preventOverflow } from 'ngx-bootstrap/positioning/esm2015/modifiers/preventOverflow';
+export { shift } from 'ngx-bootstrap/positioning/esm2015/modifiers/shift';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290Ijoibmc6Ly9uZ3gtYm9vdHN0cmFwL3Bvc2l0aW9uaW5nLyIsInNvdXJjZXMiOlsibW9kaWZpZXJzL2luZGV4LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7QUFBQSxPQUFPLEVBQUUsS0FBSyxFQUFFLE1BQU0sU0FBUyxDQUFDO0FBQ2hDLE9BQU8sRUFBRSxJQUFJLEVBQUUsTUFBTSxRQUFRLENBQUM7QUFDOUIsT0FBTyxFQUFFLFFBQVEsRUFBRSxNQUFNLFlBQVksQ0FBQztBQUN0QyxPQUFPLEVBQUUsZUFBZSxFQUFFLE1BQU0sbUJBQW1CLENBQUM7QUFDcEQsT0FBTyxFQUFFLEtBQUssRUFBRSxNQUFNLFNBQVMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCB7IGFycm93IH0gZnJvbSAnLi9hcnJvdyc7XG5leHBvcnQgeyBmbGlwIH0gZnJvbSAnLi9mbGlwJztcbmV4cG9ydCB7IGluaXREYXRhIH0gZnJvbSAnLi9pbml0RGF0YSc7XG5leHBvcnQgeyBwcmV2ZW50T3ZlcmZsb3cgfSBmcm9tICcuL3ByZXZlbnRPdmVyZmxvdyc7XG5leHBvcnQgeyBzaGlmdCB9IGZyb20gJy4vc2hpZnQnO1xuIl19

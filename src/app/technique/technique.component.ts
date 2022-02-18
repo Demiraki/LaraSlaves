@@ -37,7 +37,7 @@ export class TechniqueComponent implements OnInit  {
   constructor(private modalService: AddPostService,public authService: AuthService, private db:AngularFirestore, public myElement: ElementRef ) {
     this.userOwner = authService.userData.email;
     this.posts = db.collection('posts_tech').valueChanges();
-    this.myElement.nativeElement.ownerDocument.body.style.backgroundColor='rgba(70, 130, 180, 0.3)';
+    
   }
 
 

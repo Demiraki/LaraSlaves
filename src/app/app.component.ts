@@ -10,6 +10,6 @@ export class AppComponent {
 
   constructor( public myElement: ElementRef ) { 
     
-     this.myElement.nativeElement.ownerDocument.body.style.backgroundColor='rgba(70, 130, 180, 0.3)';
+     
   }
 }
